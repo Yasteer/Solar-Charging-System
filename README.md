@@ -13,7 +13,11 @@ The purpose of this project is to build a battery charger that takes in solar pa
 The design is divided into the following functional subsystems:
 
 ### 1. 🔋 Battery Charge Stage Identification
-**Purpose**: Determine which charging stage the battery is currently in based on its voltage.  
+**Purpose**: Determine which charging stage the battery is currently in based on its voltage.
+
+**Design Selections**: 
+- A lead-acid battery was selected due to it's cheaper cost as well as it's simpler charge profile as opposed to that of its lithium based counterpart.
+
 **Circuits Used**:
 - **Dual Window Comparator** (built with LT1011)
 - **Summing Amplifier** (used for voltage level manipulation and reference scaling)
