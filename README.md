@@ -4,6 +4,8 @@ This project presents a fully **analog-based lead-acid battery charging system**
 
 The simulation highlights the **charging profile control** of a lead-acid battery using a three-stage algorithm: **Bulk**, **Absorption**, and **Float**. These stages are detected and managed purely through analog circuitry primarily due to the difficulty in simulating microcontrollers and electronics together in freely available simulation software. 
 
+The purpose of this project is to build a battery charger that takes in solar panel input to charge a lead acid battery. The idea is then to use the charged battery in an inverter system ([Single Phase Inverter](https://github.com/Yasteer/Single-Phase-Inverter)) that can produce single phase electricity. Combining these two repositories will hopefully be the start of a cheap off-grid solar powered system.
+
 ---
 
 ## 🧩 Project Structure
