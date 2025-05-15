@@ -48,6 +48,20 @@ This subsystem classifies the battery into one of three states:
 
 ---
 
+## Simulation Results
+The following PWM captures display the circuits ability to automatically adapt the gate charging signal to the battery charging system.
+Note that at lower battery voltages, the system produces a larger PWM duty cycle and at higher voltages, it scales down the duty cycle.
+
+* Bulk Mode PWM
+> ![Bulk Mode PWM](Simulation_Results/BulkModeChargingReference.PNG)
+
+* Absorption Mode PWM
+> ![Absorption Mode PWM](Simulation_Results/AbsorptionModeChargingReference.PNG)
+
+* Float Mode PWM
+> ![Float Mode PWM](Simulation_Results/FloatModeChargingReference.PNG)
+---
+
 ## 🧠 Design Notes
 
 - All active buffering is handled by the **LT1364 dual op-amp**, chosen specifically for its high slew rate and bandwidth — critical for 100kHz operation.
