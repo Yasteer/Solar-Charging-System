@@ -48,7 +48,7 @@ This subsystem classifies the battery into one of three states:
 
 ---
 
-## Simulation Results
+## 📊 Simulation Results
 The following PWM captures display the circuits ability to automatically adapt the gate charging signal to the battery charging system.
 Note that at lower battery voltages, the system produces a larger PWM duty cycle and at higher voltages, it scales down the duty cycle.
 
