@@ -2,7 +2,7 @@
 
 This project presents a fully **analog-based lead-acid battery charging system**, simulated in **LTspice**. It demonstrates core concepts in analog circuit design, waveform generation, comparator logic, and power switching — all built using discrete and op-amp components without microcontrollers or digital control.
 
-The simulation highlights the **charging profile control** of a lead-acid battery using a three-stage algorithm: **Bulk**, **Absorption**, and **Float**. These stages are detected and managed purely through analog circuitry.
+The simulation highlights the **charging profile control** of a lead-acid battery using a three-stage algorithm: **Bulk**, **Absorption**, and **Float**. These stages are detected and managed purely through analog circuitry primarily due to the difficulty in simulating microcontrollers and electronics together in freely available simulation software. 
 
 ---
 
