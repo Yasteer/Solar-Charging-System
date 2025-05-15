@@ -89,6 +89,7 @@ Note that at lower battery voltages, the system produces a larger PWM duty cycle
 
 ## 📌 Future Enhancements
 
+- Modify the 555-Timer to have a 50% duty cycle for the square waveform output to produce a symmetrical triangular waveform output at the integrator circuit. This will reduce the DC-Offset error.
 - Integrate temperature compensation for float voltage
 - Add current-sensing feedback loop for constant-current regulation
 - PCB design and hardware prototype
