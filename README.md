@@ -36,6 +36,12 @@ This subsystem classifies the battery into one of three states:
 - **Integrator Op-Amp** (converts square to triangle)
 - **Summing Amplifier** (adjusts amplitude/offset as needed)
 
+**555-Timer Calculations**:
+555 Timer Output Frequency = 1.44/{(R1 + 2R2)C}
+> Select output frequency to match mosfet maximum switching frequency of 100kHz.
+> Choose C = 1nF & R1 = 5k
+> Solve for R2
+
 ---
 
 ### 3. 🧠 PWM Generator (Analog Modulator)
