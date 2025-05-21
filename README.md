@@ -47,7 +47,7 @@ This subsystem classifies the battery into one of three states:
 >
 > Result = 0 - 5V Unipolar Square Wave Output.
 >
-> AC-Coupling Capacitor Added To Modify The Signal Into A Bipolar Equivalent. 
+> AC-Coupling Capacitor Added To Modify The Signal Into A -2.5V - +2.5V Bipolar Equivalent. 
 
 **Integrator Calculations**
 
