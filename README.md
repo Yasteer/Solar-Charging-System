@@ -44,14 +44,21 @@ This subsystem classifies the battery into one of three states:
 > Choose C = 1nF & R1 = 5k
 >
 > Solve for R2, Result = 4.7k
+>
+> Result = 0 - 5V Unipolar Square Wave Output.
+>
+> AC-Coupling Capacitor Added To Modify The Signal Into A Bipolar Equivalent. 
 
 **Integrator Calculations**
 
 > Vout = -(Vin*t)/(R*C)
 
 > Vin = 5V Square Wave From 555-Timer
+> 
 > t = Half(Square Wave Period) = 5us
+>
 > Vout = 2.5V
+>
 > Solve for C (Choose R = 10k)
 ---
 
