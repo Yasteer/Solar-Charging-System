@@ -60,6 +60,10 @@ This subsystem classifies the battery into one of three states:
 > Vout = 2.5V
 >
 > Choose R = 10k, Solve for C = 1nF
+
+**Summing Amplifier**
+- Used to convert bipolar -2.5V - + 2.5V Triangular signal into a unipolar 0 - 5V Triangular signal.
+- Accomplished by adding a DC offset as neccessary.
 ---
 
 ### 3. 🧠 PWM Generator (Analog Modulator)
