@@ -59,7 +59,7 @@ This subsystem classifies the battery into one of three states:
 >
 > Vout = 2.5V
 >
-> Solve for C (Choose R = 10k)
+> Choose R = 10k, Solve for C = 1nF
 ---
 
 ### 3. 🧠 PWM Generator (Analog Modulator)
