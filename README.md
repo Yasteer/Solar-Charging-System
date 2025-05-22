@@ -8,6 +8,15 @@ The purpose of this project is to build a battery charger that takes in solar pa
 
 ---
 
+## 🎛️ Design Philosophy: Analog First
+
+> Several subsystems in this project could have been implemented using a digital microprocessor. However, the choice to pursue a purely analog design was deliberate.
+> This decision was driven by the constraints of using free simulation software. Most free tools tend to specialize in either microcontroller simulation or analog circuit simulation—but rarely both.
+> Rather than invest in a paid solution like Proteus, the project remains focused on analog electronics to stay within a single, well-supported simulation domain.
+> Analog design is currently the most practical and efficient path for development and testing in this context, making it the preferred approach.
+
+---
+
 ## 🧩 Project Structure
 
 The design is divided into the following functional subsystems:
