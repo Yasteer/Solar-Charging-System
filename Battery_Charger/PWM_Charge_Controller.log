@@ -1,0 +1,140 @@
+LTspice 24.1.7 for Windows
+Circuit: C:\Users\Test VM\Documents\LTspice\Battery_Charger\PWM_Charge_Controller.net
+Start Time: Fri May 30 19:48:07 2025
+C:\Users\Test VM\Documents\LTspice\sclm228\SN74HC08.cir(138): Note: The caret character means exponentiation in this context. If you wish to silence this warning, use the "**" operator instead or add ".OPTIONS NO_CARET_WARNING" to your netlist.
++ 2*MAXICC*((V(IN,VEE)-VT)/V(VCC,VEE))^2)*(1 + SGN(V(VCC,VEE) - VCC_MIN))*V(VSWITCH,VEE)}
+                                      ^
+C:\Users\Test VM\Documents\LTspice\sclm228\SN74HC08.cir(140): Note: The caret character means exponentiation in this context. If you wish to silence this warning, use the "**" operator instead or add ".OPTIONS NO_CARET_WARNING" to your netlist.
++ 2*MAXICC*((V(IN,VEE)-VT)/V(VCC,VEE))^2)*(1 + SGN(V(VCC,VEE) - VCC_MIN))*V(VSWITCH,VEE)}
+                                      ^
+C:\Users\Test VM\Documents\LTspice\sclm228\SN74HC08.cir(142): Note: The caret character means exponentiation in this context. If you wish to silence this warning, use the "**" operator instead or add ".OPTIONS NO_CARET_WARNING" to your netlist.
++ 2*MAXICC*((V(IN,VEE)-(V(VCC,VEE)-VT))/V(VCC,VEE))^2)*(1 + SGN(V(VCC,VEE) - VCC_MIN))*V(VSWITCH1,VEE)}
+                                                   ^
+C:\Users\Test VM\Documents\LTspice\sclm228\SN74HC08.cir(144): Note: The caret character means exponentiation in this context. If you wish to silence this warning, use the "**" operator instead or add ".OPTIONS NO_CARET_WARNING" to your netlist.
++ 2*MAXICC*((V(IN,VEE)-(V(VCC,VEE)-VT))/V(VCC,VEE))^2)*(1 + SGN(V(VCC,VEE) - VCC_MIN))*V(VSWITCH1,VEE)}
+                                                   ^
+C:\Users\Test VM\Documents\LTspice\sclm228\SN74HC08.cir(138): Note: The caret character means exponentiation in this context. If you wish to silence this warning, use the "**" operator instead or add ".OPTIONS NO_CARET_WARNING" to your netlist.
++ 2*MAXICC*((V(IN,VEE)-VT)/V(VCC,VEE))^2)*(1 + SGN(V(VCC,VEE) - VCC_MIN))*V(VSWITCH,VEE)}
+                                      ^
+C:\Users\Test VM\Documents\LTspice\sclm228\SN74HC08.cir(140): Note: The caret character means exponentiation in this context. If you wish to silence this warning, use the "**" operator instead or add ".OPTIONS NO_CARET_WARNING" to your netlist.
++ 2*MAXICC*((V(IN,VEE)-VT)/V(VCC,VEE))^2)*(1 + SGN(V(VCC,VEE) - VCC_MIN))*V(VSWITCH,VEE)}
+                                      ^
+C:\Users\Test VM\Documents\LTspice\sclm228\SN74HC08.cir(142): Note: The caret character means exponentiation in this context. If you wish to silence this warning, use the "**" operator instead or add ".OPTIONS NO_CARET_WARNING" to your netlist.
++ 2*MAXICC*((V(IN,VEE)-(V(VCC,VEE)-VT))/V(VCC,VEE))^2)*(1 + SGN(V(VCC,VEE) - VCC_MIN))*V(VSWITCH1,VEE)}
+                                                   ^
+C:\Users\Test VM\Documents\LTspice\sclm228\SN74HC08.cir(144): Note: The caret character means exponentiation in this context. If you wish to silence this warning, use the "**" operator instead or add ".OPTIONS NO_CARET_WARNING" to your netlist.
++ 2*MAXICC*((V(IN,VEE)-(V(VCC,VEE)-VT))/V(VCC,VEE))^2)*(1 + SGN(V(VCC,VEE) - VCC_MIN))*V(VSWITCH1,VEE)}
+                                                   ^
+solver = Normal
+Maximum thread count: 1
+tnom = 27
+temp = 27
+method = trap
+C1: Increased Cpar to 1e-14
+C2: Increased Cpar to 1e-14
+C3: Increased Cpar to 1e-14
+C4: Increased Cpar to 1e-14
+C5: Increased Cpar to 1e-14
+C7: Increased Cpar to 1e-15
+C11: Increased Cpar to 1e-13
+C8: Increased Cpar to 1e-08
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Increasing initial diagonal Gmin to 100
+Increasing initial diagonal Gmin to 1000
+Increasing initial diagonal Gmin to 10000
+Gmin = 10000
+Gmin = 1073.74
+Gmin = 115.292
+Gmin = 12.3794
+Gmin = 1.32923
+Gmin = 0.142725
+Gmin = 0.015325
+Gmin = 0.0016455
+Gmin = 0.000176685
+Gmin = 1.89714e-05
+vernier = 0.5
+vernier = 0.25
+Gmin = 3.97859e-06
+vernier = 0.125
+vernier = 0.0625
+vernier = 0.03125
+vernier = 0.015625
+vernier = 0.0078125
+vernier = 0.00390625
+vernier = 0.00195312
+vernier = 0.000976562
+vernier = 0.000488281
+Gmin = 0
+Gmin = 0
+Gmin stepping failed
+
+Starting source stepping with srcstepmethod=0
+Source Step = 3.0303%
+Source Step = 3.634%
+Source Step = 3.75237%
+Source Step = 3.87074%
+Source Step = 3.98911%
+Source Step = 4.10748%
+vernier = 0.00585938
+Source Step = 4.23769%
+Source Step = 4.41525%
+Source Step = 4.5928%
+Source Step = 4.77036%
+Source Step = 4.94792%
+vernier = 0.00878906
+Source Step = 5.13435%
+Source Step = 5.40069%
+Source Step = 5.66702%
+Source Step = 5.93336%
+Source Step = 6.19969%
+Source Step = 6.46603%
+vernier = 0.0131836
+Source Step = 6.86553%
+Source Step = 7.26503%
+Source Step = 7.66454%
+Source Step = 8.06404%
+Source Step = 8.46354%
+vernier = 0.0197754
+Source Step = 9.04282%
+Source Step = 9.64208%
+Source Step = 10.2413%
+Source Step = 10.8406%
+Source Step = 11.4398%
+vernier = 0.0296631
+Source Step = 12.2788%
+Source Step = 13.1777%
+Source Step = 14.0766%
+Source Step = 14.9754%
+Source Step = 15.8743%
+vernier = 0.0444946
+Source Step = 17.0878%
+Source Step = 18.4361%
+Source Step = 19.7845%
+Source Step = 21.1328%
+Source Step = 22.4811%
+vernier = 0.0667419
+Source Step = 24.2339%
+Source Step = 26.2564%
+Source Step = 28.2789%
+Source Step = 30.3014%
+Source Step = 32.3238%
+vernier = 0.100113
+Source Step = 34.852%
+Source Step = 37.8857%
+Source Step = 40.9194%
+Source Step = 43.9531%
+Source Step = 46.9869%
+vernier = 0.150169
+Source Step = 50.6273%
+Source Step = 55.1779%
+Source Step = 59.7285%
+Source Step = 64.2791%
+Source Step = 68.8297%
+vernier = 0.225254
+Source Step = 74.0628%
+Source Step = 80.8887%
+Source Step = 87.7146%
+Source Step = 94.5405%
+Source stepping succeeded in finding the operating point.
+
