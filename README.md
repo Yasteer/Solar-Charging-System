@@ -91,6 +91,20 @@ This subsystem classifies the battery into one of three states:
 
 ---
 
+### 5. 🔋 Battery Model
+- Battery modelled by a capacitor in series with a resistor
+- Charge Time Constant (τ) = (R)(C); Where τ = 1s chosen for simulation
+- Full charge achieved at 5τ or 5s in an ideal world
+
+**Model Analysis**
+- For a simple model, it gets the job done of acting as a device that stores charge
+- The main issue is that it does not model a realistic battery charge/discharge curve which has regions of constant current and constant voltage
+- The current model reacts immediately to changes in charge
+
+**Model Improvements**
+- Build a behavioral *SPICE* model that generates a voltage as a function of the State-Of-Charge (SOC) of the battery
+---
+
 ## 📊 Simulation Results
 The following PWM captures display the circuits ability to automatically adapt the gate charging signal to the battery charging system.
 Note that at lower battery voltages, the system produces a larger PWM duty cycle and at higher voltages, it scales down the duty cycle.
