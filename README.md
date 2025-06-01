@@ -15,6 +15,12 @@ The purpose of this project is to build a battery charger that takes in solar pa
 > Rather than invest in a paid solution like Proteus, the project remains focused on analog electronics to stay within a single, well-supported simulation domain.
 > Analog design is currently the most practical and efficient path for development and testing in this context, making it the preferred approach.
 
+### 🔺➖➕ Operational Amplifier Selection
+> Slew Rate is the major limiting factor of operational-amplifier selection for this use-case.
+> The LM741 is a general purpose op-amp with a slew rate of 0.5V/us. This is not great for square waveforms of high frequencies and the op amp creates distorted output.
+> The LT1364 is an over the top op-amp, with a slew rate of 1000V/us. This is much better for our purposes of high frequency signal handling. 
+> For standardization purposes, all op-amps in this project are chosen to be of the LT1364 type. 
+
 ---
 
 ## 🧩 Project Structure
