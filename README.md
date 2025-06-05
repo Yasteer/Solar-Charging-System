@@ -146,8 +146,8 @@ Note that at lower battery voltages, the system produces a larger PWM duty cycle
 
 ## 📁 Repository Contents
 
-- `/schematics/`: Contains `.asc` LTspice schematic files for each subsystem
-- `/plots/`: Simulation waveforms showcasing each subsystem in operation
+- `/Battery_Charger/`: Contains `.asc` LTspice schematic files for each subsystem
+- `/Simulation_Results/`: Simulation waveforms showcasing each subsystem in operation
 - `README.md`: This documentation
 - Additional notes on design rationale, tuning, and improvements
 
